@@ -39,7 +39,8 @@ main {
     margin-left: 50px;
     margin-top: 50px;
     text-align: center;
-    display: inline-block;
+  
+    
 }
 .pregunta {
     padding-top: 20px;
@@ -47,14 +48,17 @@ main {
 
 }
 .estrellas {
-
+    align-self: center;
+    display: inline-block;
     font-size: 30px;
-    word-spacing: 20px;
+    
    
 }
 .estrellas2 {
+    display: inline-block;
     font-size: 43px;
     color: yellow;
+    margin-left: 25px;
  
 }
 
@@ -85,4 +89,10 @@ main {
 .retorno {
     color: aliceblue;
 }
+p {
+display: inline-flex;
+word-spacing: 20px;
+}
+
+
 
